@@ -10,6 +10,22 @@
 
 /* Homepage */
 
+.homepage-link-list {
+  width: 1200px;
+  margin: 0 auto;
+  border: 12px double lightcoral;
+}
+
+.homepage-link-list li {
+  display: inline-block;
+  list-style: none;
+  width: 320px;
+  padding: 8px;
+  margin: 10px;
+  text-align: center;
+  border: 8px dotted lightpink;
+}
+
 .homepage-link a {
   text-decoration: none;
   color: inherit;
