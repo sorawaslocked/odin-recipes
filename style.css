@@ -52,18 +52,44 @@
 /* Recipes */
 
 .meal-img {
+  display: block;
   height: auto;
   width: 800px;
+  border: 10px ridge yellow;
+  margin: 36px auto;
+}
+
+section {
+  padding: 32px;
+  margin: 24px;
+}
+
+.description-section {
+  background-color: bisque;
+}
+
+.ingredients-section {
+  background-color: chocolate;
+}
+
+.ingredients-section .secondary-heading {
+  color: beige;
+}
+
+.steps-section {
+  background-color: aquamarine;
 }
 
 .secondary-heading {
   font-family: 'Courier New', Courier, monospace;
   font-size: 36px;
+  margin: 0 0 48px 0;
 }
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24px;
+  margin: 24px 0 0 0;
 }
 
 li {
@@ -73,9 +99,25 @@ li {
 .ingredients-list {
   font-family: sans-serif;
   font-size: 24px;
+  color: antiquewhite;
+  margin: 0;
+  list-style: square;
+}
+
+.ingredients-list li {
+  margin: 12px 0;
 }
 
 .steps-list {
   font-family: sans-serif;
   font-size: 28px;
+  margin: 0;
+}
+
+.steps-list li {
+  margin: 24px 0;
+}
+
+.steps-list li:last-child {
+  margin-bottom: 0;
 }
